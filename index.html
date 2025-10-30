@@ -7,13 +7,20 @@
   </head>
   <body>
     <div id="root"></div>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script>
+      //Create an element using React similar to document.createElement in vanilla JS  
+      const header = React.createElement("h1", {}, "Hello World from React");
+      //finds the root element in the index.html and renders the header element inside it
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(header);
+    </script>
   </body>
-  <script
-    crossorigin
-    src="https://unpkg.com/react@18/umd/react.development.js"
-  ></script>
-  <script
-    crossorigin
-    src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
-  ></script>
 </html>
