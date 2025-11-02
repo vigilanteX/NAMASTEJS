@@ -22,6 +22,17 @@ Dependencies are of two types:
 
 -------------------------------------------
 package-lock.json - keeps exact version of dependencies
+-------------------------------------------
+
+Transitive dependencies: One package can depend on more dependencies.
+And all dependency has its own package.json
+--------------------------------------------
+
+
+npx parcel index.html
+
+
+
 
 Setup-
 1-npm init
