@@ -1,0 +1,14 @@
+{
+  "name": "episode2",
+  "version": "2.0.0",
+  "description": "episode2 app",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Aman dixit",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  }
+}

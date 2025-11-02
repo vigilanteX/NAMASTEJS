@@ -1,0 +1,27 @@
+npm->repo or package manager which keep tracks of version
+package.json->config for app
+bundler->to bundle app. Parcel in our case
+
+-------------------------------------------
+
+npm i packageName->to install package
+Dependencies are of two types:
+1-common: use command npm i packageName Example in packagejson   "dependencies": {
+    "parcel": "^2.16.0"
+  }
+2-DEV: use command npm i -D packageName Example in packagejson "devDependencies": {
+    "parcel": "^2.16.0"
+  }
+
+-------------------------------------------
+
+
+^:minor version
+~:major version
+
+
+-------------------------------------------
+package-lock.json - keeps exact version of dependencies
+
+Setup-
+1-npm init
