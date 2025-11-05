@@ -3,7 +3,9 @@
   "version": "2.0.0",
   "description": "episode2 app",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start":"parcel index.html",
+    "prod":"parcel build index.html"
   },
   "author": "Aman dixit",
   "license": "ISC",
