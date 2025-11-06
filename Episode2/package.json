@@ -4,8 +4,9 @@
   "description": "episode2 app",
   "scripts": {
     "test": "jest",
-    "start":"parcel index.html",
-    "prod":"parcel build index.html"
+    "start1":"parcel index.html",
+    "prod":"parcel build index.html",
+    "start2":"parcel index2.html"
   },
   "author": "Aman dixit",
   "license": "ISC",
